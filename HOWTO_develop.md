@@ -65,15 +65,3 @@ You can do this using an appropriate SSH configuration, and the handy script
 
 This is defined in ```package.json```.
 
-### Documentation subtrees
-
-For convenience we keep documentation mirrored
-into the main repository using [subtrees](http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/).
-
-Get changes:
-
-      git subtree pull --prefix=docs ssh://git@github.com/synestize/synestize.github.io.git master
-
-Send changes:
-
-      git subtree push --prefix=docs ssh://git@github.com/synestize/synestize.github.io.git master
